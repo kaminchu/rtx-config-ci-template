@@ -14,7 +14,7 @@ deploy:
   stage: deploy
   when: manual
   only:
-    - main
+    - master
   script:
     - "tftp ${TARGET_IP} put ${CONFIG_FILE} config${CONFIG_NO}/${ADMIN_PASS}"
   tags:
