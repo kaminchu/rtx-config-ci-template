@@ -1,16 +1,14 @@
 clear configuration
 
-
-
 # sync secret-variables and other
 ## ADMIN_PASS
-administrator password pass
+administrator password adminpass
 
 ## TARGET_IP
-ip lan2 address 192.168.136.120/24
+ip lan1 address 192.168.100.1/24
 
 ## runner ip
-tftp host any
+tftp host 192.168.100.201
 
 
 save
