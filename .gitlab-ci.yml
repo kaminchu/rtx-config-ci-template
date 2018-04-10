@@ -3,6 +3,7 @@ image: kaminchu/tftp
 # プロジェクトのsecret-variablesで設定すべし
 # https://docs.gitlab.com/ee/ci/variables/#secret-variables
 variables:
+  CONFIG_FILE: config.txt
 #  TARGET_IP: "192.168.0.254"
 #  ADMIN_PASS: "adminpass"
 #  CONFIG_NO: "0"
