@@ -10,9 +10,10 @@ routerと同じネットワークにrunnerを構築します。
 以下の設定を入れておいてください
 
 ```
-ip <任意のインターフェース> address <lanで利用できるのip/サブネットマスク(bit長)>
-tftp host <runnerのIP>
-save
+# ip <任意のインターフェース> address <lanで利用できるのip/サブネットマスク(bit長)>
+# tftp host <runnerのIP>
+# administrator password
+# save
 ```
 
 ## gitlabのプロジェクトの設定
