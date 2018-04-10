@@ -24,7 +24,7 @@ CONFIG_FILE : <送信したいconfigファイル名>
 CONFIG_NO　: <送信先のconfigNo> // ルータによっては不要
 ADMIN_PASS : <administratorのパスワード>
 
-``
+```
 
 ## configの作成
 本プロジェクトのルートに送信したい設定を記述したファイルを置く
