@@ -17,6 +17,7 @@ deploy:
   only:
     - master
   script:
+    - echo $TARGET_IP put $CONFIG_FILE config$CONFIG_NO/$ADMIN_PASS
     - tftp -m ascii $TARGET_IP -c put $CONFIG_FILE config$CONFIG_NO/$ADMIN_PASS
   tags:
     - local
